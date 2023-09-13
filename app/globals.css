@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input-field{
+    @apply w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500;
+}
+
+.input-text{
+    @apply text-sm font-bold text-gray-700 tracking-wide
+    text-sm font-bold text-gray-700 tracking-wide
+    text-sm font-bold text-gray-700 tracking-wide
+    text-sm font-bold text-gray-700 tracking-wide
+}
+
+.auth-button{
+    @apply bg-indigo-500 text-gray-100 p-4 w-full rounded-full tracking-wide font-semibold focus:outline-none  hover:bg-indigo-600 shadow-lg
+}
